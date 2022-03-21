@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Model</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgray;
+           
+           /* 
+           Simplificação do border ( ordem: width style color)
+           ex:
+           border: 10px solid darkgray; */ 
+            
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /*
+            simplificação do padding (ordem: top right bottom left)
+            ex:
+            padding: 10px 10px 10px 10px; */
+
+
+            /* 
+            simplificação padding 2, se top e bottom ou right e left forem iguais você pode fazer uma só declaração 
+            ex:
+            padding: 10px 10px; 
+            */
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            /*
+            simplificação margin (ordem: top right bottom left)
+            ex:
+            margin: 15px 10px 15px 10px;
+            */
+
+            /*
+            simplificação margin 2, se top e bottom ou rigth e left forem iguais você pode fazer um só declaração 
+            ex:
+            margin: 15px 10px;
+            */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blue;
+            /*
+            simplificação do outline (ordem: width style color)
+            ex:
+            outline: 5px dashed blue;
+            */
+
+        }
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a> vamos ver como tudo isso funciona</p>
+
+    ajkhkjahkjahsa
+</body>
+</html>

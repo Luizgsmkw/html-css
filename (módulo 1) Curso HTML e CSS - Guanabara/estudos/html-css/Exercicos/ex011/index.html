@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexíveis</title>
+</head>
+<body>
+    <h1>Imagens Flexíveis</h1>
+    <h2>História de Dark Souls</h2>
+    <picture>
+       <source media="(max-width: 750px)" srcset="imagens/thumb-750.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/thumb-m.jpg" type="image/jpg"> 
+        <img src="imagens/thumb.jpg" alt="A imagem flexível funciona">
+    </picture>
+    <audio preload="metadata" controls autoplay loop >
+        <source src="midia/darkSoulsLore.mp3" type="audio/mpeg">
+    </audio>
+    <p>Se caso o arquivo de aúdio não abrir, você tem a opção de baixar clicando <a href="midia/darkSoulsLore.mp3" download="darkSoulsLore.mp3" type="audio/mpeg">aqui</a></p>
+</body>
+</html>
