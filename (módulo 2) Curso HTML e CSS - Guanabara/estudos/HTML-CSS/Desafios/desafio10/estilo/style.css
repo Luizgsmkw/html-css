@@ -25,6 +25,7 @@
 body {
     background-color: #EBE5C5;
     font-family: var(--font-padrao);
+    
 }
 header {
     background-image: linear-gradient(to bottom, #2fa866, #1a5c37, #063d1e);
